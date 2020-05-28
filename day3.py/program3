@@ -1,0 +1,9 @@
+  
+userstr=input("enter a string :")
+str1=""
+i=0
+for x in userstr:
+    if  userstr.index(x)==i:
+        str1+=x
+    i=i+1
+print("string after removing duplicates: "+str1)
