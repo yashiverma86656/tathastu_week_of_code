@@ -1,0 +1,17 @@
+  
+def sorting_odd_even(num):
+    even=[]
+    odd=[]
+    for i in num:
+        if i%2==0:
+            even.append(i)
+        else:
+            odd.append(i)
+    return sorted(odd,reverse=True)+sorted(even)
+n=int(input("enter the size of list: "))
+list1=[]
+for x in range(n):
+    list1.append(int(input("Enter the value in the list one by one " )))
+print("user entered the following list: ",list1)
+
+print("list after sorting: ",sorting_odd_even(list1))
