@@ -1,0 +1,5 @@
+tup1=input("enter some elements seprated by , : ")
+tuple_1=tuple(tup1)
+n=input("enter the element to find occurence :")
+occurence=tuple_1.count(n)
+print(occurence)
