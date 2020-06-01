@@ -1,0 +1,9 @@
+  
+  
+dict1 = {"Hemanshi":97 , "Ayushi":95, "Masan":88, "kritika":73,"Amar":74,"Amar":58,"Ayushi":89,"Abhay":97,"Neeraj":88}
+dict2={}
+for keys,values in dict1.items():
+    if values not in dict2.values():
+        dict2[keys]=values
+print("dictionary before removing duplicates: ",dict1)
+print("dictionary after removing duplicates : ",dict2)
