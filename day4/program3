@@ -1,0 +1,6 @@
+dict1 = {"Harshit":46 , "Ayushman":95, "Masan":88, "kartika":73}
+List1 = list(dict1.values())
+print(List1)
+List1.sort()
+elements= List1[-2]
+print("The second maximum element in the dictionary is :",elements)
